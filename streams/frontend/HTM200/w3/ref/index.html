@@ -1,0 +1,120 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+<title>Cheat Sheet Generator</title>
+<style>
+body {
+	font-family:Calibri,Helvetica;
+}
+h1,h2 {
+	background-color:#6b7eb7;
+	color:#ffffff;
+	font-weight:bold;
+	margin-top:0px;
+	padding:2px;
+	padding-left:4px;
+}
+h2 {
+	margin-bottom:0px;
+	font-size:1.2em;
+}
+.box {
+	margin:0px 0px 10px 10px
+}
+.l {
+	float:left;
+}
+.r {
+	float:right;
+}
+.single {
+	width:48%;
+}
+.double {
+	width:99%;
+}
+.codeblock {
+	background-color:#F0F0F0;
+	border:1px solid #B0B0B0;
+	margin:4px;
+	padding:4px;
+}
+.error{
+	background:#C00000;
+	color:#FFFFFF;
+	font-size:1.2em;
+	font-weight:bold;
+	text-align:center;
+	padding:4px 20px;
+	margin-bottom:10px;
+	width:500px;
+}
+/**
+ * GeSHi (C) 2004 - 2007 Nigel McNie, 2007 - 2008 Benny Baumann
+ * (http://qbnz.com/highlighter/ and http://geshi.org/)
+ */
+.html.codeblock  {font-family:Consolas,Lucida Console,monospace;}
+.html.codeblock .imp {font-weight: bold; color: red;}
+.html.codeblock .kw2 {color: #000000; font-weight: bold;}
+.html.codeblock .kw3 {color: #000066;}
+.html.codeblock .es0 {color: #000099; font-weight: bold;}
+.html.codeblock .br0 {color: #66cc66;}
+.html.codeblock .sy0 {color: #66cc66;}
+.html.codeblock .st0 {color: #ff0000;}
+.html.codeblock .nu0 {color: #cc66cc;}
+.html.codeblock .sc-1 {color: #808080; font-style: italic;}
+.html.codeblock .sc0 {color: #00bbdd;}
+.html.codeblock .sc1 {color: #ddbb00;}
+.html.codeblock .sc2 {color: #009900;}
+.html.codeblock span.xtra { display:block; }
+</style>
+</head>
+<body>
+<h1>HTM-200-W3</h1>
+			<div class="box double l">
+						<h2>Import Trivial.CSS</h2>
+			<div class="html codeblock"><span class="sc-1">&lt;!-- To Import Trivial.CSS --&gt;</span><br />
+<span class="sc2">&lt;<span class="kw2">link</span> <span class="kw3">rel</span><span class="sy0">=</span><span class="st0">&quot;stylesheet&quot;</span> <span class="kw3">href</span><span class="sy0">=</span><span class="st0">&quot;https://cdn.jsdelivr.net/gh/trivial-css/cdn/trivial.css&quot;</span>&gt;</span><br />
+&nbsp;</div>		</div>
+				<div class="box double l">
+						<h2>Side-By-Side Layout</h2>
+			<div class="html codeblock"><span class="sc-1">&lt;!-- Parent div to create 2 side-by-side child elements --&gt;</span><br />
+<span class="sc-1">&lt;!-- Example Below --&gt;</span><br />
+<span class="sc2">&lt;<span class="kw2">div</span> <span class="kw3">class</span><span class="sy0">=</span><span class="st0">&quot;side-by-side&quot;</span>&gt;&lt;<span class="sy0">/</span><span class="kw2">div</span>&gt;</span></div>		</div>
+				<div class="box double l">
+						<h2>Add Some Left Space</h2>
+			<div class="html codeblock"><span class="sc-1">&lt;!-- Create some space in the left.--&gt;</span><br />
+<span class="sc-1">&lt;!-- Available Spaces : 5, 10, 15, 20, 25, 30, 40, 50, 60</span><br />
+<span class="sc-1"> &nbsp; &nbsp; 70, 80, 90, 100, 150, 200, 250, 300 --&gt;</span><br />
+<span class="sc-1">&lt;!-- Example Below --&gt;</span><br />
+<span class="sc2">&lt;<span class="kw2">div</span> <span class="kw3">class</span><span class="sy0">=</span><span class="st0">&quot;space-left-5&quot;</span>&gt;&lt;<span class="sy0">/</span><span class="kw2">div</span>&gt;</span></div>		</div>
+				<div class="box double l">
+						<h2>Add Some Right Space</h2>
+			<div class="html codeblock"><span class="sc-1">&lt;!-- Create some space in the right.--&gt;</span><br />
+<span class="sc-1">&lt;!-- Available Spaces : 5, 10, 15, 20, 25, 30, 40, 50, 60</span><br />
+<span class="sc-1"> &nbsp; &nbsp; 70, 80, 90, 100, 150, 200, 250, 300 --&gt;</span><br />
+<span class="sc-1">&lt;!-- Example Below --&gt;</span><br />
+<span class="sc2">&lt;<span class="kw2">div</span> <span class="kw3">class</span><span class="sy0">=</span><span class="st0">&quot;space-right-5&quot;</span>&gt;&lt;<span class="sy0">/</span><span class="kw2">div</span>&gt;</span></div>		</div>
+				<div class="box double l">
+						<h2>Add Some Top Space</h2>
+			<div class="html codeblock"><span class="sc-1">&lt;!-- Create some space in the top.--&gt;</span><br />
+<span class="sc-1">&lt;!-- Available Spaces : 5, 10, 15, 20, 25, 30, 40, 50, 60</span><br />
+<span class="sc-1"> &nbsp; &nbsp; 70, 80, 90, 100, 150, 200, 250, 300 --&gt;</span><br />
+<span class="sc-1">&lt;!-- Example Below --&gt;</span><br />
+<span class="sc2">&lt;<span class="kw2">div</span> <span class="kw3">class</span><span class="sy0">=</span><span class="st0">&quot;space-top-5&quot;</span>&gt;&lt;<span class="sy0">/</span><span class="kw2">div</span>&gt;</span></div>		</div>
+				<div class="box double l">
+						<h2>Define Font Size</h2>
+			<div class="html codeblock"><span class="sc-1">&lt;!-- Define the fontsize of an element. Applicable to content tags--&gt;</span><br />
+<span class="sc-1">&lt;!-- Available Font Sizes : 5, 10, 15, 20, 25, 30, 35, 40 --&gt;</span><br />
+<span class="sc-1">&lt;!-- Example Below --&gt;</span><br />
+<span class="sc2">&lt;<span class="kw2">div</span> <span class="kw3">class</span><span class="sy0">=</span><span class="st0">&quot;font-size-20&quot;</span>&gt;&lt;<span class="sy0">/</span><span class="kw2">div</span>&gt;</span></div>		</div>
+				<div class="box double l">
+						<h2>Define Width</h2>
+			<div class="html codeblock"><span class="sc-1">&lt;!-- Define the width of an element.--&gt;</span><br />
+<span class="sc-1">&lt;!-- Available Spaces : 5, 10, 15, 20, 25, 30, 40, 50, 60</span><br />
+<span class="sc-1"> &nbsp; &nbsp; 70, 80, 90, 100, 150, 200, 250, 300, 350 --&gt;</span><br />
+<span class="sc-1">&lt;!-- Example Below --&gt;</span><br />
+<span class="sc2">&lt;<span class="kw2">div</span> <span class="kw3">class</span><span class="sy0">=</span><span class="st0">&quot;width-200&quot;</span>&gt;&lt;<span class="sy0">/</span><span class="kw2">div</span>&gt;</span></div>		</div>
+		</body>
+</html>
